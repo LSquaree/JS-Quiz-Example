@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+/* Typography */
+.heading{
+    background-color: aliceblue;
+    color:black;
+}
+.heading .heading1{
+    font-size: 40px;
+    font-weight: bolder;
+    margin-bottom: 1.2rem;
+    letter-spacing: 5px;
+}
+.heading .heading2{
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+}
+.startbtn{
+    background-color: black;
+    opacity: 1;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 2px;
+}
+.startbtn a{
+    color:white;
+    font-size: 1.2rem;
+}
+
+
+
+body{
+    margin: 0;
+}
+.heading{
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* margin-bottom: 30px; */
+}
+.testimage{
+    width: 400px;
+    height: 300px;
+    margin: auto;
+    position: relative;
+}
+.testimage svg{
+    width: 100%;
+    height: 100%;
+    /* border: 1px solid black; */
+}
+.startbtn{
+    position: absolute;
+    top:-35px;
+    left:50%;
+    transform: translate(-50%);
+    width:100px;
+    padding: 10px 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:auto;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.startbtn a{
+    text-decoration: none;
+}
+.startbtn:hover{
+    opacity: 0.8;
+}
+@media screen and (max-width:800px) {
+    .heading{
+        text-align: center;
+    }
+    .heading .heading1{
+        font-size: 35px;
+        letter-spacing: 3px;
+    }
+    .heading .heading2{
+        font-size: 25px;
+    }
+    .startbtn{
+        top:-10px;
+    }
+    .startbtn a{
+        font-size: 1.2rem;
+    }
+    .testimage{
+        width: 350px;
+        height: 300px;
+    }
+}
+@media screen and (max-width:500px) {
+    .heading{
+        text-align: center;
+    }
+    .heading .heading1{
+        font-size: 26px;
+        letter-spacing: 2px;
+    }
+    .heading .heading2{
+        font-size: 18px;
+    }
+    .startbtn{
+        top:-10px;
+    }
+    .startbtn a{
+        font-size: 1rem;
+    }
+    .testimage{
+        width: 300px;
+        height: 300px;
+    }
+}
+
