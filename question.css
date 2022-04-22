@@ -1,8 +1,14 @@
 /* Typography */
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&family=Source+Serif+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&family=Source+Serif+Pro:wght@400;600&display=swap');
 .question{
     font-size: 20px;
     font-family: 'Source Serif Pro', serif;
+    /* font-family: 'Roboto',sans-serif; */
+
+}
+.question span{
+    font-weight: 600;
+    /* font-family: 'Roboto',sans-serif; */
 }
 .answeritem{
     font-size: 16px;
@@ -61,6 +67,7 @@ body{
     margin-bottom: 20px;
     
 }
+
 .answer{
     margin-top: 20px;
 }
@@ -157,10 +164,10 @@ body{
         width:350px;
     }  
     .question{
-        font-size: 18px;
+        font-size: 19px;
     }
     .answeritem{
-        font-size: 15px;
+        font-size: 16px;
     }
     .submit{
         font-size: 18px;

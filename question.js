@@ -17,7 +17,7 @@ submitbtn.addEventListener('click',function(){
     var q9=document.querySelector('input[name="q9"]:checked').value;
     var q10=document.querySelector('input[name="q10"]:checked').value;
     // console.log("q1 value is ",q1,q2)
-    var correctanswerarr=['a','a','a','a','a','b','b','b','b','b']
+    var correctanswerarr=['b','d','d','a','d','c','b','a','c','a']
     var customanswerarr=[q1,q2,q3,q4,q5,q6,q7,q8,q9,q10];
     // for(let i=1;i<11;i++){
     //     customanswerarr.push('q'+i);
